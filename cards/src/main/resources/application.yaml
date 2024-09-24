@@ -1,21 +1,52 @@
 server:
   port: 8100
 
+#spring:
+#  application:
+#    name: loans
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/bank_microservice
+#    username: springstudent
+#    password: springstudent
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    show-sql: true
+#  sql:
+#    init:
+#      mode: always      #for initialization of schema.sql
+
 spring:
-  application:
-    name: loans
   datasource:
-    url: jdbc:mysql://localhost:3306/bank_microservice
-    username: springstudent
-    password: springstudent
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
   jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     show-sql: true
-  sql:
-    init:
-      mode: always      #for initialization of schema.sql
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "prod"
 
 logging:
   level:
     web: DEBUG
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
+  contactDetails:
+    name: "Ru Nards - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

@@ -1,6 +1,7 @@
 package com.teamr.runardo.accounts.controller;
 
 import com.teamr.runardo.accounts.constants.AccountsConstants;
+import com.teamr.runardo.accounts.dto.AccountsContactInfoDto;
 import com.teamr.runardo.accounts.dto.CustomerDto;
 import com.teamr.runardo.accounts.dto.ErrorResponseDto;
 import com.teamr.runardo.accounts.dto.ResponseDto;
@@ -14,6 +15,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -26,12 +29,20 @@ import org.springframework.web.bind.annotation.*;
 )
 @RestController
 @RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
-@AllArgsConstructor
 @Validated
 public class AccountsController {
 
-    private IAccountService accountService;
+    private final IAccountService accountService;
 
+    @Value("${build.version}")
+    private String buildVersion;
+
+    @Autowired
+    private AccountsContactInfoDto accountsContactInfoDto;
+
+    public AccountsController(IAccountService accountService) {
+        this.accountService = accountService;
+    }
 
     @GetMapping
     public String sayHello() {
@@ -84,7 +95,7 @@ public class AccountsController {
     }
     )
     @GetMapping("/fetch")
-    public ResponseEntity<CustomerDto> fetchaAccountDetails(@RequestParam @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") String mobileNumber) {
+    public ResponseEntity<CustomerDto> fetchaAccountDetails(@RequestParam @Pattern(regexp = "(^$|[0-9]{10})", message = "Mobile number must be 10 digits") String mobileNumber) {
         CustomerDto customerDto = accountService.fetchAccount(mobileNumber);
 
         return ResponseEntity
@@ -117,11 +128,11 @@ public class AccountsController {
     @PutMapping("/update")
     public ResponseEntity<ResponseDto> updateAccountDetails(@Valid @RequestBody CustomerDto customerDto) {
         boolean isUpdated = accountService.updateAccount(customerDto);
-        if(isUpdated) {
+        if (isUpdated) {
             return ResponseEntity
                     .status(HttpStatus.OK)
                     .body(new ResponseDto(AccountsConstants.STATUS_200, AccountsConstants.MESSAGE_200));
-        }else{
+        } else {
             return ResponseEntity
                     .status(HttpStatus.EXPECTATION_FAILED)
                     .body(new ResponseDto(AccountsConstants.STATUS_417, AccountsConstants.MESSAGE_417_UPDATE));
@@ -152,7 +163,7 @@ public class AccountsController {
     }
     )
     @DeleteMapping("/delete")
-    public ResponseEntity<ResponseDto> deleteAccountDetails(@RequestParam @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits") String mobileNumber) {
+    public ResponseEntity<ResponseDto> deleteAccountDetails(@RequestParam @Pattern(regexp = "(^$|[0-9]{10})", message = "Mobile number must be 10 digits") String mobileNumber) {
         boolean isDeleted = accountService.deleteAccount(mobileNumber);
 
         if (isDeleted) {
@@ -167,5 +178,49 @@ public class AccountsController {
 
     }
 
+    @Operation(
+            summary = "Get build version",
+            description = "REST API to get the version of the account microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getBuildInfo() {
+        return ResponseEntity.ok().body(buildVersion);
+    }
 
+    @Operation(
+            summary = "Get contact info",
+            description = "REST API to get the version of the account microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo() {
+        return ResponseEntity.ok().body(accountsContactInfoDto);
+    }
 }
