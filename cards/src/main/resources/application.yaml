@@ -17,6 +17,8 @@ server:
 #      mode: always      #for initialization of schema.sql
 
 spring:
+  application:
+    name: "cards"
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
