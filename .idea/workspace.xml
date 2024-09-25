@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="spring config">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AccountsApplication.executor": "Debug",
+    "Application.AccountsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "generate-docker-umage",
@@ -43,10 +40,11 @@
       <recent name="C:\Users\Ruby Joy Nardo\Documents\01-Java\02-Microservice Udemy\configserver\src\main\resources\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountsApplication">
+  <component name="RunManager" selected="Application.ConfigserverApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamr.runardo.accounts.AccountsApplication" />
       <module name="accounts" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=qa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.teamr.runardo.accounts.*" />
@@ -70,10 +68,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AccountsApplication" />
+      <item itemvalue="Application.ConfigserverApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.AccountsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -102,8 +104,27 @@
       <option name="project" value="LOCAL" />
       <updated>1727169725331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring config">
+      <option name="closed" value="true" />
+      <created>1727171106190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727171106190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring config" />

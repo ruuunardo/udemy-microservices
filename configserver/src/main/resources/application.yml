@@ -2,12 +2,23 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+#    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-location: "classpath:/config"
+#        native:
+#          search-location: "file:///C://Users//Ruby Joy Nardo//Documents//01-Java//configserver"
+#          search-location: "classpath:/config"
+        git:
+          uri: "https://github.com/ruuunardo/udemy-microservice-configrepo"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+encrypt:
+  key: "45dfhji6789hgf765fgffgd"
 
 server:
   port: 8071
