@@ -33,12 +33,20 @@ spring:
       ddl-auto: update
     show-sql: true
   config:
-    import:
-      - "application_prod.yml"
-      - "application_qa.yml"
+    import: "optional:configserver:http://localhost:8071/"
   profiles:
-    active:
-      - "qa"
+    active: "prod"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "user"
+    password: "password"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 logging:
   level:

@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
         <module name="accounts" />
+        <module name="cards" />
+        <module name="loans" />
       </profile>
     </annotationProcessing>
   </component>
