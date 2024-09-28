@@ -7,11 +7,6 @@ spring:
   profiles:
 #    active: native
     active: git
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "user"
-    password: "password"
   cloud:
     config:
       server:

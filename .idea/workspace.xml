@@ -4,23 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="s6 - optimized docker compose">
-      <change afterPath="$PROJECT_DIR$/dockercompose/prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockercompose/prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockercompose/qa/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockercompose/qa/docker-compose.yml" afterDir="false" />
+    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="create mysql db docker compose">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/dto/CardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/dto/LoanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/teamr/runard/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/teamr/runard/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="generate-docker-umage" />
+        <entry key="$PROJECT_DIR$" value="spring-cloud-bus" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,22 +63,28 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2mVLcdYehf1HLsErIFtji7EvQHE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountsApplication.executor": "Debug",
-    "Application.CardsApplication.executor": "Debug",
-    "Application.ConfigserverApplication.executor": "Debug",
-    "Application.LoansApplication.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "spring-cloud-bus",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ruby Joy Nardo/Documents/01-Java/02-Microservice Udemy/dockercompose/qa"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccountsApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CardsApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EurekaserverApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LoansApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;s8-remove-springbus&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ruby Joy Nardo/Documents/01-Java/02-Microservice Udemy/eurekaserver&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ruby Joy Nardo\Documents\01-Java\02-Microservice Udemy\dockercompose\qa" />
@@ -53,8 +92,12 @@
       <recent name="C:\Users\Ruby Joy Nardo\Documents\01-Java\02-Microservice Udemy\dockercompose\default" />
       <recent name="C:\Users\Ruby Joy Nardo\Documents\01-Java\02-Microservice Udemy\configserver\src\main\resources\config" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.teamr.runardo.accounts.dto" />
+      <recent name="com.teamr.runardo.accounts.service.client" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigserverApplication">
+  <component name="RunManager" selected="Application.AccountsApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamr.runardo.accounts.AccountsApplication" />
       <module name="accounts" />
@@ -95,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamr.runard.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamr.runard.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoansApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamr.runardo.loans.LoansApplication" />
       <module name="loans" />
@@ -109,6 +165,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EurekaserverApplication" />
       <item itemvalue="Application.CardsApplication" />
       <item itemvalue="Application.LoansApplication" />
       <item itemvalue="Application.AccountsApplication" />
@@ -116,10 +173,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigserverApplication" />
-        <item itemvalue="Application.LoansApplication" />
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountsApplication" />
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoansApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +270,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="spring config" />
     <MESSAGE value="spring config - github source" />
     <MESSAGE value="modify contact details" />
