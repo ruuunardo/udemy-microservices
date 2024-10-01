@@ -16,6 +16,7 @@ server:
 #    init:
 #      mode: always      #for initialization of schema.sql
 #
+
 spring:
   application:
     name: "accounts"
@@ -42,6 +43,11 @@ management:
     web:
       exposure:
         include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true

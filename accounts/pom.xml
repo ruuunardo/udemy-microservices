@@ -129,7 +129,7 @@
 				<version>3.4.3</version>
 				<configuration>
 					<to>
-						<image>runardo/${project.artifactId}:s6</image>
+						<image>runardo/${project.artifactId}:s9</image>
 					</to>
 				</configuration>
 			</plugin>
