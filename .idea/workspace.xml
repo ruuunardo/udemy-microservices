@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="s9-added gateway server">
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/CardsFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/LoansFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/teamr/runardo/gatewayserver/controller/FallbackController.java" afterDir="false" />
+    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="s11-added grafana loki">
+      <change afterPath="$PROJECT_DIR$/hs_err_pid13860.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid7364.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_pid13860.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/CardsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/CardsFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/LoansFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/client/LoansFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/teamr/runardo/accounts/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/prod/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/teamr/runardo/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/teamr/runardo/gatewayserver/GatewayserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/alloy/alloy-local-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/alloy/alloy-local-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/loki/loki-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/loki/loki-config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ruuunardo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ruuunardo/udemy-microservices.git",
+    "accountId": "9c7e834e-f094-4150-990f-1ff5f95e2ce7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -273,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727771070832</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="s10-added resiliency pattern">
+      <option name="closed" value="true" />
+      <created>1728095733811</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728095733812</updated>
+    </task>
+    <task id="LOCAL-00013" summary="s11-added grafana loki">
+      <option name="closed" value="true" />
+      <created>1728716336556</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728716336556</updated>
+    </task>
+    <task id="LOCAL-00014" summary="s11-added grafana loki">
+      <option name="closed" value="true" />
+      <created>1728716504458</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728716504458</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +340,8 @@
     <MESSAGE value="optimized docker compose" />
     <MESSAGE value="s6 - optimized docker compose" />
     <MESSAGE value="s9-added gateway server" />
-    <option name="LAST_COMMIT_MESSAGE" value="s9-added gateway server" />
+    <MESSAGE value="s10-added resiliency pattern" />
+    <MESSAGE value="s11-added grafana loki" />
+    <option name="LAST_COMMIT_MESSAGE" value="s11-added grafana loki" />
   </component>
 </project>
