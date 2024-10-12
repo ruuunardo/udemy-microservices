@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="s11-added grafana loki">
-      <change afterPath="$PROJECT_DIR$/hs_err_pid13860.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid7364.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_pid13860.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid13136.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
@@ -17,10 +14,9 @@
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/observability/alloy/alloy-local-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/alloy/alloy-local-config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/observability/loki/loki-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/loki/loki-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/alloy/alloy-local-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/loki/loki-config.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +39,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ruuunardo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ruuunardo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ruuunardo/udemy-microservices.git",
-    "accountId": "9c7e834e-f094-4150-990f-1ff5f95e2ce7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ruuunardo/udemy-microservices.git&quot;,
+    &quot;accountId&quot;: &quot;9c7e834e-f094-4150-990f-1ff5f95e2ce7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1

@@ -1,0 +1,44 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]" date="1728718598745" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/10/2024 3:35 pm [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl1.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl2.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl3.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl4.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl5.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl6.meta" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" />
+    <option name="AFTER_PATH" value="dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2024_3_35_pm_[Changes]/xl7.meta" />
+  </binary>
+</changelist>
