@@ -80,29 +80,29 @@ services:
       file: common-config.yml
       service: network-deploy-service
 
-#    prometheus:
-#      image: prom/prometheus:v2.50.1
-#      container_name: prometheus
-#      ports:
-#        - "9090:9090"
-#      volumes:
-#        - ../observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-#      extends:
-#        file: common-config.yml
-#        service: network-deploy-service
+    prometheus:
+      image: prom/prometheus:v2.50.1
+      container_name: prometheus
+      ports:
+        - "9090:9090"
+      volumes:
+        - ../observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      extends:
+        file: common-config.yml
+        service: network-deploy-service
 
-#    tempo:
-#      image: grafana/tempo:2.4.2
-#      container_name: tempo
-#      command: -config.file /etc/tempo-config.yml
-#      ports:
-#        - "3110:3100"
-#        - "4317:4317"
-#      volumes:
-#        - ../observability/tempo/tempo.yml:/etc/tempo-config.yml
-#      extends:
-#        file: common-config.yml
-#        service: network-deploy-service
+    tempo:
+      image: grafana/tempo:2.4.2
+      container_name: tempo
+      command: -config.file /etc/tempo-config.yml
+      ports:
+        - "3110:3100"
+        - "4317:4317"
+      volumes:
+        - ../observability/tempo/tempo.yml:/etc/tempo-config.yml
+      extends:
+        file: common-config.yml
+        service: network-deploy-service
 
   grafana:
     image: grafana/grafana:11.0.0
@@ -259,35 +259,35 @@ services:
       file: common-config.yml
       service: microservice-eurekaserver-config
 
-#  loans:
-#    image: "runardo/loans:s11"
-#    container_name: loans-ms
-#    ports:
-#      - "8090:8090"
-#    healthcheck:
-#      test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
-#      interval: 10s
-#      timeout: 5s
-#      retries: 10
-#      start_period: 10s
-#    extends:
-#      file: common-config.yml
-#      service: microservice-eurekaserver-config
-#
-#  cards:
-#    image: "runardo/cards:s11"
-#    container_name: cards-ms
-#    ports:
-#      - "8100:8100"
-#    healthcheck:
-#      test: "curl --fail --silent localhost:80100/actuator/health/readiness | grep UP || exit 1"
-#      interval: 10s
-#      timeout: 5s
-#      retries: 10
-#      start_period: 10s
-#    extends:
-#      file: common-config.yml
-#      service: microservice-eurekaserver-config
+  loans:
+    image: "runardo/loans:s11"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    healthcheck:
+      test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    extends:
+      file: common-config.yml
+      service: microservice-eurekaserver-config
+
+  cards:
+    image: "runardo/cards:s11"
+    container_name: cards-ms
+    ports:
+      - "8100:8100"
+    healthcheck:
+      test: "curl --fail --silent localhost:80100/actuator/health/readiness | grep UP || exit 1"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    extends:
+      file: common-config.yml
+      service: microservice-eurekaserver-config
 
   gatewayserver:
     image: "runardo/gatewayserver:s11"
