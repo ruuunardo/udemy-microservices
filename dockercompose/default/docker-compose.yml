@@ -251,7 +251,7 @@ services:
       - "8080:8080"
     healthcheck:
       test: "curl --fail --silent localhost:8080/actuator/health/readiness | grep UP || exit 1"
-      interval: 10s
+      interval: 20s
       timeout: 5s
       retries: 10
       start_period: 10s
@@ -266,7 +266,7 @@ services:
       - "8090:8090"
     healthcheck:
       test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
-      interval: 10s
+      interval: 20s
       timeout: 5s
       retries: 10
       start_period: 10s
@@ -281,7 +281,7 @@ services:
       - "8100:8100"
     healthcheck:
       test: "curl --fail --silent localhost:80100/actuator/health/readiness | grep UP || exit 1"
-      interval: 10s
+      interval: 20s
       timeout: 5s
       retries: 10
       start_period: 10s
@@ -297,10 +297,10 @@ services:
     depends_on:
       accounts:
         condition: service_healthy
-#      cards:
-#        condition: service_healthy
-#      loans:
-#        condition: service_healthy
+      cards:
+        condition: service_healthy
+      loans:
+        condition: service_healthy
     extends:
       file: common-config.yml
       service: microservice-eurekaserver-config
