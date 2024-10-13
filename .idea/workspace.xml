@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/docker-compose.yml">
+    <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/dockercompose/observability/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockercompose/observability/tempo/tempo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid13136.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid13860.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid7364.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_pid13860.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728744905559</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1728745727314</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728745727314</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +364,7 @@
     <MESSAGE value="s10-added resiliency pattern" />
     <MESSAGE value="s11-added grafana loki" />
     <MESSAGE value="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/docker-compose.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/.usage.json/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-data/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin.bkp/xl.meta&#10;#&#9;dockercompose/default/.data/minio/.minio.sys/buckets/loki-ruler/.usage-cache.bin/xl.meta&#10;#&#9;dockercompose/default/docker-compose.yml" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>

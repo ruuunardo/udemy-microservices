@@ -32,6 +32,9 @@ management:
         enabled: true
     shutdown:
       enabled: true
+  metrics:
+    tag:
+      application:${spring.application.name}
 
 encrypt:
   key: "45dfhji6789hgf765fgffgd"
