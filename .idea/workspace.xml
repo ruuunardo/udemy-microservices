@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67fbf205-30e1-47c1-bc7d-57965e9d939d" name="Changes" comment="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/dockercompose/observability/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockercompose/observability/tempo/tempo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/teamr/runardo/gatewayserver/config/KeycloakRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/teamr/runardo/gatewayserver/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dockercompose/observability/grafana/datasource.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid13136.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid13860.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid7364.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replay_pid13860.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +71,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;s8-remove-springbus&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ruby Joy Nardo/Documents/01-Java/02-Microservice Udemy/gatewayserver&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ruby Joy Nardo/Documents/00-Projects/02-Java/Uaap Data Scraper/v2/uuapdata-service&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -101,7 +87,7 @@
       <recent name="com.teamr.runardo.accounts.service.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Gatewayserver">
+  <component name="RunManager" selected="Application.ConfigserverApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamr.runardo.accounts.AccountsApplication" />
       <module name="accounts" />
@@ -187,9 +173,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.AccountsApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
-        <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.CardsApplication" />
       </list>
@@ -332,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728745727314</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/s8-remove-springbus' into s8-remove-springbus&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1728812575065</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728812575065</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +337,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>
