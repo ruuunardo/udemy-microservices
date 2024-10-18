@@ -137,7 +137,7 @@
 				<version>3.4.3</version>
 				<configuration>
 					<to>
-						<image>runardo/${project.artifactId}:s11</image>
+						<image>runardo/${project.artifactId}:s12</image>
 					</to>
 				</configuration>
 			</plugin>
